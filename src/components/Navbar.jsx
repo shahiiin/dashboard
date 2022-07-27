@@ -7,7 +7,7 @@ import { MdKeyboardArrowDown } from 'react-icons/md';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 
 import avatar from '../data/avatar.jpg';
-import { Cart, Chat, Notification, UserProfile } from './index';
+import { Cart, Chat, Notifications, UserProfile } from './index';
 import { useStateContext } from '../context/ContextProvider';
 
 
@@ -82,7 +82,7 @@ const Navbar = () => {
 
         {isClicked.cart && (<Cart />)}
         {isClicked.chat && (<Chat />)}
-        {isClicked.notification && (<Notification />)}
+        {isClicked.notification && (<Notifications />)}
         {isClicked.userProfile && (<UserProfile />)}
       </div>
     </div>

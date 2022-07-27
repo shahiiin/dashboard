@@ -36,7 +36,7 @@ import {useStateContext} from './context/ContextProvider'
   <Navbar/>
 
 </div>
-    </div>
+    
     <div>
       <Routes>
       {/* dashboard  */}
@@ -64,6 +64,7 @@ import {useStateContext} from './context/ContextProvider'
                 <Route path="/pyramid" element={<Pyramid/>}/>
                 <Route path="/stacked" element={<Stacked/>}/>
       </Routes>
+    </div>
     </div>
      </div>
     </BrowserRouter>
