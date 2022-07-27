@@ -5,10 +5,10 @@
  import { Navbar, Footer, SideBar, ThemeSettings } from './components';
 import { Ecommerce, Orders, Calender, Employees, Stacked, Pyramid, Customers, Kanban, Line, Area, Bar, Pie, Financial, ColorPicker, ColorMapping, Editor } from './pages';
  import './App.css'
-
+import {useStateContext} from './context/ContextProvider'
 
  function App() {
- const activeMenu = true
+ const {activeMenu} = useStateContext()
   return (
     <BrowserRouter>
      <div className="flex relative dark:bg-main-dark-bg">
