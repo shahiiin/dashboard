@@ -38,6 +38,7 @@ import {useStateContext} from './context/ContextProvider'
 </div>
     
     <div>
+      <ThemeSettings/>
       <Routes>
       {/* dashboard  */}
       <Route path="/" element={<Ecommerce/>}/>
