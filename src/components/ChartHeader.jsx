@@ -1,8 +1,8 @@
 import React from 'react'
-
+import  {Header}  from '../components';
 const ChartHeader = () => {
   return (
-    <div>ChartHeader</div>
+    <div><Header category="App" title="Pie" /></div>
   )
 }
 
